@@ -1,0 +1,122 @@
+@font-face {
+    font-family: 'Vazir-FD';
+    src: url('../fonts/Vazir-FD.woff')
+}
+
+body {
+    margin: 0 auto;
+    overflow: hidden;
+    font-family: 'Vazir-FD';
+    direction: rtl;
+    background: #FAFAFA;
+}
+
+.header {
+    width: 100%;
+    padding: 10px;
+    background: #03dd8a;
+
+}
+.header h1 {
+    color: #fff;
+    font-size: 1.4em;
+
+}
+.main {
+    text-align: center;
+    padding: 3em 0;
+}
+#search-products , #add-product-form input, .edit input {
+    width: 25%;
+    border-radius: 15px;
+    resize: vertical;
+    border: 1px solid #66c09d;
+    margin: 1em 0;
+    outline: 0;
+    padding: 10px;
+    font-size: .7em;
+    font-family: 'Vazir-FD';
+
+}
+#products p {
+    display: inline;
+    margin: 0 1.4em;
+    color:#616161;
+}
+#products a {
+    text-decoration: none;
+    color:#03dd8a;
+    font-size: 1.2em;
+    padding: .1em;
+}
+#products button , #remove-products {
+    width: 9%;
+    background: #03dd8a;
+    color: #fff;
+    border-radius: 15px;
+    resize: vertical;
+    margin-top: 0;
+    margin-bottom: 0;
+    outline: 0;
+    padding: 10px;
+    font-weight: 400;
+    line-height: normal;
+    font-family: 'Vazir-FD';
+    border: none;
+    font-size: .8em;
+}
+.product-row {
+    padding: 2em;
+    margin: 2em 6em;
+    border-radius: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 25px 5px rgba(0,0,0,.07);
+    min-width: 0;
+    background-color: #fff;
+    background-clip: border-box;
+}
+#add-product-form button {
+    width:9%;
+    background: #03dd8a;
+    color: #fff;
+    border-radius: 15px;
+    line-height: normal;
+    outline: 0;
+    border: none;
+    font-weight: 400;
+    font-family: 'Vazir-FD';
+    border: none;
+    padding: 10px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.sort {
+    margin: 1em 0;
+}
+#home-btn {
+    background:#03dd8a;
+    border-radius: 15px;
+    width: 9%;
+    padding: 10px;
+    border: none;
+    font-weight: 400;
+    resize: vertical;
+    font-family: 'Vazir-FD';
+}
+#home-btn a {
+    text-decoration: none;
+    color: #fff;
+    font-size: .8em;
+}
+#last-edit {
+    color: #616161;
+    margin: 2em;
+}
+
+select:hover{
+    background-color: #03dd8a;
+}
+
+input:checked {
+    background-color: #03dd8a;
+}
